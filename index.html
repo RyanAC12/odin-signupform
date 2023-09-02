@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left">
+        <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="BackgroundImage">
+        <div class="logocontainer">
+            <div class="logo">
+            <img src="odin-lined.png" alt="logo">
+            <h1>ODIN</h1>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <header class="top">
+            Odin forest excursions are the best in the region.
+            <br>Sign up now to get started!
+        </header>
+        <div class="formcontainer">
+            <div class="header">Let's do it!</div>
+            <form action="#">
+                <div class="formleft">
+                    <div class="inputgroup">
+                        <label for="first_name">First Name*</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="inputgroup">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="inputgroup">
+                        <label for="password">Password*</label>
+                        <input type="password" id="password" name="password" minlength=8 maxlength=20 required>
+                    </div>
+                </div>
+                <div class="formright">
+                    <div class="inputgroup">
+                        <label for="last_name">Last Name*</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                    <div class="inputgroup">
+                        <label for="phone_number">Phone Number (optional)</label>
+                        <input type="text" id="phone_number" name="phone_number" minlength="9">
+                    </div>
+                    <div class="inputgroup">
+                        <label for="confirm_password">Confirm Password*</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
+                    </div>
+                </div>
+            
+        </div>
+        <footer class="bottom">
+            <button type="submit">Create Account</button>
+            </form>
+            <h2>Already have an account? <a href="">Log in.</a> </h2>
+        </footer>
+    </div>
+</body>
+</html>
